@@ -1,0 +1,13 @@
+com\user\dao\CourseManagementDAO.class
+com\user\dao\EnrollmentDAO.class
+com\user\utility\DatabaseConnection.class
+com\user\dao\AssignmentDAO.class
+com\user\dao\AdminDAO.class
+com\user\utility\DBConnection.class
+com\user\dao\UserDAO.class
+com\user\dao\UserManagementDAO.class
+org\mindrot\jbcrypt\BCrypt.class
+com\user\model\UserManagement.class
+com\user\model\Assignment.class
+com\user\model\CourseManagement.class
+com\user\model\Enrollment.class
