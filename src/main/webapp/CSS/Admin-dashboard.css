@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #000000;
+}
+
+header.dashboard-header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+main.dashboard-container {
+    padding: 2em;
+}
+
+/* Quick Links Section */
+.quick-links {
+    margin-bottom: 2em;
+}
+
+.quick-links h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: space-between;
+}
+
+.card {
+    background: #4caf50;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    box-shadow: 13px 14px 7px 6px rgb(245 255 17);
+    text-decoration: none;
+    color: #000000;
+    flex: 1 1 calc(33% - 1em);
+    padding: 1.5em;
+    transition: transform 0.2s cubic-bezier(0.75, 0.71, 0.81, 2.14), box-shadow 0.2s ease;
+}
+
+.card h3 {
+    margin: 0 0 0.5em;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1em;
+    color: #000000;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* User Data Section */
+.user-data h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+#user-specific-data {
+    background: white;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer.dashboard-footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
